@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/re_layout"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ebongaro"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/titeltoview"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/image"
+            android:text="ডিসোসিয়েটিভ আইডেন্টিটি ডিসঅর্ডার – একটি মনস্তাত্ত্বিক সমস্যা"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="25dp"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
