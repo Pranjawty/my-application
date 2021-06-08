@@ -14,10 +14,44 @@
         android:layout_height="30dp"
 
         >
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+
+            >
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="200dp"
+                android:hint="Search Here"
+                android:textSize="14sp"
+                android:paddingLeft="30dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="#D8D5D5"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:background="@drawable/edit_text_new"
+                />
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="#565051"
+                android:src="@drawable/ic_baseline_search_24"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="10dp"
+                android:text="Button"/>
 
 
+        </RelativeLayout>
 
-        <SearchView
+
+       <!-- <EditText
             android:id="@+id/search"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
@@ -25,10 +59,11 @@
 
             >
 
-        </SearchView>
+        </EditText>-->
 
 
         <Spinner
+            android:visibility="gone"
             android:id="@+id/spinner"
             android:layout_width="100dp"
             android:layout_height="wrap_content"

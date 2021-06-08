@@ -78,4 +78,10 @@ public class NewssAdapter extends BaseAdapter {
 
         return itemView;
     }
+
+
+    public void filterlist(ArrayList<NewsModel> filteredList) {
+        newsModels = filteredList;
+        notifyDataSetChanged();
+    }
 }
